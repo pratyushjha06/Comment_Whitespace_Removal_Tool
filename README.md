@@ -54,11 +54,6 @@ int x = 10;
 printf("Hello // World");
 ```
 
-## Team division
-- Member 1: `lexer.c`, `lexer.h` — lexical/state analysis
-- Member 2: `comment_remover.c`, `comment_remover.h` — comment removal
-- Member 3: `whitespace_remover.c`, `whitespace_remover.h` — whitespace processing
-- Member 4: `main.c`, tests, Makefile, integration
 
 ## Important viva point
 This is not simple string replacement. The tool performs character-level lexical/state processing to distinguish normal code, strings, character literals, line comments and block comments.
